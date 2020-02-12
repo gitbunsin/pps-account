@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* PPS CSS Document */
+/*Rounded Div panel*/
+#pps_panel{
+	border:1px solid #cfcfcf; 
+	border-radius:10px; 
+	background-color:#e6e6e6; 
+	padding-top:10px; padding-bottom:10px;
+	box-shadow: 0 0px 10px rgba(0,0,0,.5); 
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.5);	
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.5); 
+	behavior: url(./style/ie-css3.htc);
+}
+/*Text Box*/
+input[type='text'],input[type='password'],textarea,select{
+	/*font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px; 	
+	height:20px;*/
+	border:1px solid #6dbdd1;
+	background-color: #ecf4fc; 
+	font-style:normal;
+	color:#000;
+}
+#name_kh, #companyname_kh, #principle_kh{
+	font-family: 'Khmer OS Content'; 
+	font-size:11px; 	
+}
+
+input[type='text']:disabled,input[type='password']:disabled,textarea:disabled,select:disabled,
+input[type='text']:disabled:hover,input[type='password']:disabled:hover,textarea:disabled:hover,select:disabled:hover{
+	/*font-family:Arial, Helvetica, sans-serif; 
+	font-size:11px; 	
+	height:20px;*/
+	border:1px solid #ccc;
+	background-color: #eee; 
+	font-style:normal;
+	color:#999;
+}
+
+input[type='text'],input[type='password']{
+	padding-left:3px; padding-right:3px;
+}
+
+input[type='checkbox'], input[type='radio']{
+	cursor:pointer;
+}
+
+input[type='text']:hover,input[type='password']:hover,select:hover,textarea:hover{
+	color:#000;
+	border:1px solid #0e6eb8;
+}
+
+#start_price,
+#start_price_usd,
+#end_price,
+#end_price_usd,
+#parvalue,
+#parvalue_usd,
+#investment{
+	background:#ddd;
+}
+
+input[type='text']:focus, input[type='password']:focus, select:focus, textarea:focus{
+	color:#000;
+	border:1px solid #0e6eb8;
+}
+
+/*Button*/
+
+/*Book Building Button*/
+.button{
+	border:1px solid #000;
+	background:url(../images/button/button_bg.png) repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; color:#fff;
+	font-weight:bold;
+	height:25px;
+	cursor:pointer;
+	border-radius:15px;
+	/*if IE*/
+	padding:0px 15px 0px 15px;
+	/*if firefox */
+	padding-bottom:2px;
+	behavior: url(./style/ie-css3.htc);
+}
+.button:hover{
+	border:1px solid #333;
+	background:url(../images/button/button_bg_over.png) repeat-x;
+	behavior: url(./style/ie-css3.htc);
+}
+.action_button{
+	border:1px solid #000;
+	background:url(../images/button/button_bg.png) repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px; color:#fff;
+	font-weight:bold;
+	height:19px;
+	cursor:pointer;
+	border-radius:10px;
+	/*if IE*/
+	padding:0px 5px 0px 5px;
+	/*if firefox */
+	padding-bottom:2px;
+	behavior: url(./style/ie-css3.htc);
+}
+.action_button:hover{
+	border:1px solid #333;
+	background:url(../images/button/button_bg_over.png) repeat-x;
+	behavior: url(./style/ie-css3.htc);
+}
+.action_button:disabled{
+	border:1px solid #666;
+	background:url(../images/button/disable_button.png) repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px; color:#fff;
+	font-weight:bold;
+	height:19px;
+	cursor:pointer;
+	border-radius:10px;
+	/*if IE*/
+	padding:0px 5px 0px 5px;
+	/*if firefox */
+	padding-bottom:2px;
+	behavior: url(./style/ie-css3.htc);
+}
+div.over {
+	opacity:0.5; 
+	filter:alpha(opacity=50); 
+	-moz-opacity:0.5;
+	behavior: url(./style/ie-css3.htc);
+}
+div.out {
+	opacity:1.0; 
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	behavior: url(./style/ie-css3.htc);
+}
+div.label{
+	text-align:left;
+	padding-left:5px;
+}

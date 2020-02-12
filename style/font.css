@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Hanuman:400,700);
+@import url(https://fonts.googleapis.com/css?family=Khmer);
+@import url(https://fonts.googleapis.com/css?family=Bayon);
+@import url(https://fonts.googleapis.com/css?family=Koulen);
+@import url(https://fonts.googleapis.com/css?family=Dangrek);
+@import url(https://fonts.googleapis.com/css?family=Angkor);
+@import url(https://fonts.googleapis.com/css?family=Kdam+Thmor);
+@import url(https://fonts.googleapis.com/css?family=Moul);
+@import url(https://fonts.googleapis.com/css?family=Nokora:400,700);
+
+/* CSS Document */
+@font-face {
+	font-family: "Hanuman";
+	src: url("fonts/Hanuman.eot?") format('eot'), /* IE support */
+			 url("fonts/Hanuman.ttf") format('truetype');/* Firefox3.5>, Saferi3.1>*/
+	/*behavior: url(ie-css3.htc);*/
+}
+@font-face {
+	font-family: "Dangrek";
+	src: url("fonts/Dangrek.eot?") format('eot'), /* IE support */
+			 url("fonts/Dangrek.ttf") format('truetype');/* Firefox3.5>, Saferi3.1>*/
+	/*behavior: url(ie-css3.htc);*/
+}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: "Hanuman";
+	src: url("../../fonts/Hanuman.eot?") format('eot'), /* IE support */
+			 url("../../fonts/Hanuman.ttf") format('truetype');/* Firefox3.5>, Saferi3.1>*/
+}
+p, textarea {
+	font-family: 'Hanuman', Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#005c87;
+}
+input[type='text'], input[type='password'], select{
+	font-family: 'Hanuman', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#005c87;
+}
+textarea{
+	line-height:22px;
+	resize:vertical;
+	overflow-y:hidden!important;
+}

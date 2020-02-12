@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* PPS WEB CSS Document */
+img{border:0px;}
+
+.formTitle{
+	width:100%;
+	float: left;
+	height: 23px;
+	background: url(../images/login/title_bg.png) repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px; font-weight: bold;
+	color:#fff;
+}
+#LoginText{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#006666; 
+	font-style:normal;
+}
+#LoginTitle{
+	padding-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	line-height:22px;
+}
+#login_panel{
+	border:1px solid #cfcfcf; 
+	border-radius:10px; 
+	background-color:#e6e6e6; 
+	box-shadow: 0 0px 10px rgba(0,0,0,.5); 
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.5);	
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.5); 
+	behavior: url(./style/ie-css3.htc);"
+}
+
+/*Login Link*/
+#Loginlink a:link, #Loginlink a:visited{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#0363af;
+	text-decoration:none;
+}
+#Loginlink a:hover, #Loginlink a:active{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#0363af;
+	text-decoration:underline;
+}
+
+/*Login - Text Box */
+
+.login_control { 
+	outline: none; padding: 5px; /* text-indent: 8px; */ 
+	color: #0c63a3; font-size: 12px; 
+	height:15px; width:210px;
+	background-color: #ecf4fc; 
+	border: 1px solid #6dbdd1; 
+	-moz-box-shadow: 0px 1px 0px white; 
+	-webkit-box-shadow: 0px 1px 0px white;
+	box-shadow: 0px 1px 0px white; 
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px; 
+	-moz-background-clip: padding; 
+	-webkit-background-clip: padding-box; 
+	background-clip: padding-box;
+	padding-left:10px; padding-right:10px;
+	behavior: url(./style/ie-css3.htc); } 
+
+.login_control:hover{
+	border: 1px solid #0c63a3;
+}
+.login_control:focus{ 
+	background: white; color: #0c63a3; 
+	-moz-box-shadow: 0px 0px 5px rgba(0, 148, 255, 0.7); /* FF3.5+ */ 
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 148, 255, 0.7); /* Saf3.0+, Chrome */ 
+	box-shadow: 0px 0px 5px rgba(0, 148, 255, 0.7); /* Opera 10.5, IE9, Chrome 10+ */ 
+	behavior: url(./style/ie-css3.htc); } 
+
+.login_control.error { color: #bd2727; border-color: #EDCFCF !important; background: #ffebeb !important; 	-webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; behavior: url(./style/ie-css3.htc); }
+ 
+.login_control.error:focus { 
+	background: white; -moz-box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.3); /* FF3.5+ */ 
+	-webkit-box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.3); /* Saf3.0+, Chrome */ 
+	box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.3); /* Opera 10.5, IE9, Chrome 10+ */
+	behavior: url(./style/ie-css3.htc); } 
+
+.input-static { font-size: 14px; padding: 0px 6px; border-radius: 6px; background: #F2F2F2; border: 1px solid #EBEBEB; color: #B0B0B0; line-height: 28px; height: 28px; } 
+/*Button*/
+.login_button{
+	border:1px solid #000;
+	background:url(../images/button/button_bg.png) repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px; color:#fff;
+	font-weight:bold;
+	height:25px;
+	cursor:pointer;
+	border-radius:15px;
+	/*if IE*/
+	padding:0px 15px 0px 15px;
+	/*if firefox */
+	padding-bottom:2px;
+	behavior: url(./style/ie-css3.htc);
+}
+.login_button:hover{
+	border:1px solid #333;
+	background:url(../images/button/button_bg_over.png) repeat-x;
+	behavior: url(./style/ie-css3.htc);
+}

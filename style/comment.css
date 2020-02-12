@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+#content,.content{
+		-ms-word-break: break-all;
+		word-break: break-all;
+
+ /* Non standard for webkit */
+		 word-break: break-word;
+
+		-webkit-hyphens: auto;
+			 -moz-hyphens: auto;
+				-ms-hyphens: auto;
+						hyphens: auto;
+}
+.comment {
+	background-color:#fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	display:none;
+	margin:1em;
+	padding:10px 10px 0px 10px;
+}
+

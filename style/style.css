@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, .content{
+	font-family: 'Hanuman', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#005c87;
+	font-weight:normal;
+	line-height:25px;
+	padding-bottom:5px;
+}
+p{
+	font-family: 'Hanuman', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#005c87;
+	font-weight:normal;
+	line-height:25px;
+}
+.session_city{
+	font-family: 'Norkora', Arial, Helvetica, sans-serif;
+	font-size:8px;
+	color:#005c87;
+	margin-top:-5px;
+	font-weight:normal;
+}
+.comment-title h3{
+	font-family: 'Dangrek'; 
+	font-weight:normal;
+	color:#090; 
+	margin-top:0px; margin-bottom:5px;
+	border-bottom:1px dotted #090;
+}
+
+#foot h3{
+	font-family:Nokora, serif;
+	font-size:16px;
+	color:#fff8d3;
+	font-weight:normal;
+	line-height:0px;
+}
+#foot ul{list-style:none; margin-left:-40px;}
+#foot li a:link, #foot a:visited{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#fff;
+	text-decoration:none;
+	line-height:20px;
+}
+#foot li a:hover, #foot a:active{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#fff8d3;
+	text-decoration:underline;
+	line-height:20px;
+}
+#foot h3 span{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#fff8d3;
+	font-weight:normal;
+}
+
+.foot{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#FFF;
+	text-align:left;
+}
+
+.socials {display:inline-block;vertical-align:top; list-style:none; margin:0px;}
+.socials li{float:left;margin-left:11px;margin-top:-5px;}
+.socials li a{width:23px;height:23px;display:block;}
+.socials li a.twi{background:url(../images/social/social-twi.png) no-repeat left top;}
+.socials li a.fb{background:url(../images/social/social-fb.png) no-repeat left top;}
+.socials li a.g{background:url(../images/social/social-g.png) no-repeat left top;}
+.socials li a.yt{background:url(../images/social/social-yt.png) no-repeat left top;}
+.socials li a:hover{opacity:0.8;filter:alpha(opacity=80)}
+
+.head, .head a:link, .head a:visited{
+	font-family: "Hanuman", Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#005c87;
+	text-decoration:none;
+}
+.head a:hover, .head a:active{
+	text-decoration:underline;
+}
+.white-link a:link, .while-link a:visited{
+	font-family: "Hanuman", Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#fff !important;
+	text-decoration:none;
+}
+.white-link a:hover, .white-link a:active{
+	text-decoration:underline;
+}
+.head account{
+	font-family: "Hanuman", Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:300;
+	color:#ffff00;
+}
+#ul_brand li{
+	display:inline;
+	list-style:none;
+	padding-right:1px;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+#ul_brand li.last{
+	padding-right:0px;
+}
+#ul_brand{
+	margin-top:-16px;
+	margin-left:-40px;
+}
+.comment a:link, .comment a:visited{
+	opacity:0.7; 
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+}
+.comment a:hover, .comment a:active{
+	opacity:1.0; 
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+}
+.image1 a:link, .image1 a:visited{
+	opacity:1.0; 
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+}
+.image1 a:hover, .image1 a:active{
+	opacity:0.80; 
+	filter:alpha(opacity=80);
+	-moz-opacity:0.80;
+}
+.kf-title{
+	font-family: "Hanuman", Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFF;
+}
+.content-title{
+	font-family: "Dangrek", Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFF;
+}
+.content-title span{
+	font-size:14px;
+	color:#FF0;
+}
+.kf-title a:link, .kf-title a:visited{
+	color:#fff;
+	text-decoration:none;
+}
+.kf-title a:hover, .kf-title a:active{
+	color:#ff0;
+	text-decoration:underline;
+}
+.kf-title a span, .kf-title span{
+	color:#FF0;
+}
+table th {
+	width: auto !important;
+}
